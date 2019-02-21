@@ -50,7 +50,7 @@ function isMultiLessOf500() {
  var data = [];
   while (access) {
     var n = prompt("Dammi un numero:");
-    if (multiArrayElements(data) < 500) {
+    if (multiArrayElements(data) < 500 && n != 0) {
       n = Number(n);
       data.push(n);
     }
